@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion {
+  width: 500px;
+}
+
+.item {
+    color: #313131; /* Cor do texto */
+    background-color: #f3f3f3; /* Cor de fundo mais escura */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+  }
+  
+
+
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.content {
+  height: auto;
+}
