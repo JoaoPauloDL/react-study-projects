@@ -4,6 +4,25 @@
   width: 100vw;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapper button {
+  color: #313131;
+  background-color: #f3f3f3;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.wrapper button:hover {
+  scale: 1.04;
 }
 
 .accordion {
@@ -11,16 +30,13 @@
 }
 
 .item {
-    color: #313131; /* Cor do texto */
-    background-color: #f3f3f3; /* Cor de fundo mais escura */
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
-  }
-  
-
-
+  color: #313131;
+  background-color: #f3f3f3;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
 
 .title {
   display: flex;
