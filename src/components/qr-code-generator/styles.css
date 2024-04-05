@@ -1,0 +1,26 @@
+.qrCode-container{
+    height: 100vh;
+    
+   
+}
+.qrCode-container h1{
+   
+    margin-top: 200px;
+   
+}
+.input-container{
+    margin-bottom: 20px;
+    
+}
+.input-container input {
+    margin-right: 10px;
+    width: 200px; /* Ajuste o tamanho do input conforme necessário */
+    height: 38px; /* Defina a altura do input */
+    box-sizing: border-box; /* Mantenha a altura e largura incluindo padding e borda */
+}
+
+.input-container button {
+    background-color: rgb(0, 71, 110);
+    color: white;
+    margin-top: 10px;
+}
