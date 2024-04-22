@@ -1,0 +1,50 @@
+.wrapper {
+    padding: 8px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.tab-item {
+    display: inline-flex;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background: #0e0253;
+    position: relative; /* Adiciona posição relativa para alinhar o gradiente */
+   
+}
+
+.tab-item:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.3); /* Adiciona uma borda direita a todos os .tab-item, exceto ao último */
+}
+.tab-item::after {
+    content: "";
+    position: absolute;
+    top: 0; /* Ajuste para a linha iniciar no topo */
+    bottom: 0; /* Ajuste para a linha terminar no final */
+    right: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(7, 1, 17, 0.3), rgba(255, 255, 255, 0)); 
+    /* Ajuste da altura da linha para criar o efeito de vazamento */
+    height: calc(100% - 10px); /* Subtrai o padding superior e inferior */
+}
+
+.tab-item.active {
+    background: #1442c0;
+    color: #fff;
+}
+
+.content {
+    padding: 20px 10px;
+    height: 300px;
+    overflow: auto;
+    background-color: #fff;
+}
