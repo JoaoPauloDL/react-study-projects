@@ -9,12 +9,15 @@ import menus from "./components/tree-view/data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
+import TabTest from "./components/custom-tabs/tabs-test";
+
 
 
 function App() {
   return (
     <div className="App">
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/>
+      {/* Scroll indicator component */}
+     { /*<ScrollIndicator url={"https://dummyjson.com/products?limit=100"}/> */}
       <Accordion />
       <RandomColor />
       <StarRating />
@@ -27,6 +30,8 @@ function App() {
       <TreeView menus={menus} />
       <QRCodeGenerator/>
       <LightDarkMode/>
+      <TabTest/>
+      
       
     </div>
   );
