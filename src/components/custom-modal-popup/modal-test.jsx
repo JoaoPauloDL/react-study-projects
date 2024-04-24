@@ -19,6 +19,7 @@ const ModalTest = () => {
       </button>
       {showModalPopup && (
         <Modal
+          id={'custom-id'}
           onClose={onclose}
           header={
             <div>
