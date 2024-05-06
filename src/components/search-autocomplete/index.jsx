@@ -60,7 +60,7 @@ const SearchAutocomplete = () => {
   }, []);
 
   return (
-    <div className="search-autocomplete-container">
+    <div style={{ height: '50vh' }}>
       {loading ? (
         <h1>Loading Data! Please wait</h1>
       ) : (
