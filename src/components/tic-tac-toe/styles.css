@@ -1,0 +1,38 @@
+.tic-tac-toe-container{
+    margin-top: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 216, 228);
+    color:rgb(17, 114, 179) ;
+}
+
+.tic-tac-toe-container button {
+    color:rgb(17, 114, 179) ;
+    font-weight: bold;
+}
+
+
+.tic-tac-toe-container::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.square{
+    border: 2px solid rgb(17, 114, 179);
+    color:rgb(17, 114, 179) ;
+    border-radius: 5px;
+    float: left;
+    font-size: 40px;
+    height: 100px;
+    padding: 0px;
+    text-align: center;
+    width: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    cursor: pointer  ;
+}
+  
